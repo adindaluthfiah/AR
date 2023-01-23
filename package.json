@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ar-js-org/ar.js": "^3.4.3",
+    "aframe-text-geometry-component": "^0.5.1",
+    "three": "^0.148.0"
+  }
+}
