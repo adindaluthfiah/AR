@@ -2,7 +2,7 @@
 include("connect.php");
 
 $db= $conn;
-$tableName="datapotensi";
+$tableName="data potensi";
 $columns= ['SITEID','SITENAME', 'LONGITUDE', 'LATITUDE', 'TOWER_TYPE', 'BAND_COVERAGE', 'TOWER_HEIGHT'];
 $fetchData = fetch_data($db, $tableName, $columns);
 
